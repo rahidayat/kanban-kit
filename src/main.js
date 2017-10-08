@@ -19,7 +19,7 @@ var config = {
 }
 
 firebase.initializeApp(config)
-Vue.prototype.$db = firebase.database()
+Vue.prototype.$fbase = firebase.database()
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
