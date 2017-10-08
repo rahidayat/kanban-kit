@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <a href="#" class="btn btn-info" data-toggle="modal" data-target="#taskModal">Create Task</a>
+    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#taskModal">Create Task</a>
     <!-- MODAL -->
     <div id="taskModal" class="modal fade">
       <div class="modal-dialog">
