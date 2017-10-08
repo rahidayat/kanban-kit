@@ -4,7 +4,7 @@
     <h3 class="panel-title">Back-log</h3>
   </div>
   <div class="panel-body">
-    <TaskList :tasks="backlog" :status="status"/>
+    <TaskList :tasks1="backlog" :status1="status" :modalId1="modalId"/>
   </div>
 </div>
 </template>
@@ -17,7 +17,8 @@ export default {
   },
   data () {
     return {
-      status: 'backlog'
+      status: 'backlog',
+      modalId: '#backlog'
     }
   },
   firebase () {
