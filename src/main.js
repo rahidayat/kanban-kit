@@ -10,15 +10,15 @@ Vue.use(VueFire)
 Vue.config.productionTip = false
 
 var config = {
-  apiKey: "AIzaSyAAmZPZXnAIXJYHAMa28MGsSnKxJqL0EkU",
-  authDomain: "kanban-kit.firebaseapp.com",
-  databaseURL: "https://kanban-kit.firebaseio.com",
-  projectId: "kanban-kit",
-  storageBucket: "kanban-kit.appspot.com",
-  messagingSenderId: "570294804483"
-};
+  apiKey: 'AIzaSyAAmZPZXnAIXJYHAMa28MGsSnKxJqL0EkU',
+  authDomain: 'kanban-kit.firebaseapp.com',
+  databaseURL: 'https://kanban-kit.firebaseio.com',
+  projectId: 'kanban-kit',
+  storageBucket: 'kanban-kit.appspot.com',
+  messagingSenderId: '570294804483'
+}
 
-firebase.initializeApp(config);
+firebase.initializeApp(config)
 Vue.prototype.$db = firebase.database()
 /* eslint-disable no-new */
 new Vue({
