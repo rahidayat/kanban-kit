@@ -1,6 +1,7 @@
 # kanban-kit
 
 > firebase & vue.js project
+> demo website: https://kanban-kit.firebaseapp.com
 
 ## Build Setup
 
